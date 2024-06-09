@@ -1,0 +1,6 @@
+*
+* Simple avalanche bjt for floating bulk avalanche modeling
+* Pazos, S.
+*.model avalBJT NPN(Is=1.0000E-15 Bf=80.539 Vaf=5 Ikf=31.168E-3 Ise=175.74E-15 Ne=5.2255 Var=1 Isc=25.314E-15 Rb=1 Cje=2.3961E-12 Mje=.21324 Cjc=1.1921E-12 Mjc=1.498 Tf=34.367E-12 BVcbo=1.7 nBVcbo='nbvPar')
+
+.model avalBJT NPN(re= 10 rb=10 rc=10 Is='IsPar' Bf='BfPar' Nf='NfPar' Vaf='VafPar' Ise='IsPar' Isc='IsPar' Ne='NePar' Var='VarPar' Ibc='IsPar' Cje='CjPar' Cjc='CjPar/10' Mjc='MjPar' BVcbo='BVpar' nBVcbo='nbvPar')

@@ -1,0 +1,6 @@
+*
+* Simple avalanche zener diode for floating bulk avalanche modeling
+* Pazos, S.
+*
+
+.model avalancheD D(Is=1e-21 Rs=50 Cjo='Cbe' M=0.5 nbv=7 bv='0.9*BVPar' Vj=.75 Isr=0 Ibv=1e-3 Ibvl=1e-3 Nbvl=0.15 Tbv1=-21.3u type=Zener)

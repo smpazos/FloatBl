@@ -1,0 +1,29 @@
+.param IsPar 1e-16
+.param BfPar 50
+.param VafPar 40
+.param CjPar Cbe
+**** Exponential factor for nonlinear junction capacitances (voltage dependance). No effect in DC
+.param MjPar 10
+.param NfPar 0.9
+
+**** NePar directly affects avalanche relaxation time/voltage (i.e., when the hysteresis happens during the backward)****
+.param NePar 1.5
+
+**** VarPar also affects the quickness (slope) of the avalanche relaxation (insensitive for VarPar > 10)
+.param VarPar 10
+
+**** nbvPar also affects the quickness (slope) and voltage of the avalanche relaxation (keep below 5 for ease of convergence)
+**** If zener BC, between 0 and 1 sets the abruptness of the exponential avalanche component
+***Tsinghua
+*.param nbvPar '9-(0.1/Vg)*5.5'
+***TSMC
+*.param nbvPar '9-(0.4/Vg)*0.5'
+.param nbvPar 0
+
+**** BVPar is avalanche onset voltage. Need to find way to generate dependance on VG.
+***Tsinghua
+.param BVPar '3.5-(1.5*Vg)'
+***TSMC
+*.param BVPar '1.6+(0.4/Vg)'
+*.param BVPar 2.5
+
