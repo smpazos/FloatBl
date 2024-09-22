@@ -1,0 +1,25 @@
+###########################################
+# Sentaurus Visual V-2023.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Sep 12, 2024. 10:48:05.
+# Version: 35.2.8364360 (2.8364360)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: 51c634c31b08.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.15.0-119-generic.
+###########################################
+
+load_file /home/kasm-user/Desktop/Work/FloatBulk_Tsub/IdVgs_n16_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> IdVgs_n16_des
+create_curve -axisX {gate InnerVoltage} -axisY {drain TotalCurrent} -dataset {IdVgs_n16_des} -plot Plot_1
+#-> Curve_1
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+exit 0
+ 

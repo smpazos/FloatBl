@@ -1,0 +1,2378 @@
+###########################################
+# Sentaurus Visual V-2023.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Sep 09, 2024. 12:17:07.
+# Version: 35.2.8364360 (2.8364360)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: 51c634c31b08.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.15.0-119-generic.
+###########################################
+
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0020_nmos1_des.tdr -fod
+create_plot -dataset n1621_0020_nmos1_des
+select_plots {Plot_n1621_0020_nmos1_des}
+#-> Plot_n1621_0020_nmos1_des
+#-> Plot_n1621_0020_nmos1_des
+#-> n1621_0020_nmos1_des
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0020_nmos1_des -position {2.02458 -14.0666}
+#-> 0
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0020_nmos1_des -position {0.7643 -6.78926}
+#-> 0
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0020_nmos1_des -geom n1621_0020_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0020_nmos1_des -position {-0.564781 -1.46636}
+#-> 0
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0020_nmos1_des -position {0.00998842 0.0389548}
+#-> 0
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 0.826446
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0010_nmos1_des.tdr -fod
+create_plot -dataset n1621_0010_nmos1_des
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_n1621_0010_nmos1_des
+#-> n1621_0010_nmos1_des
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {0.601575 -1.65617 -0.767871 1.38228}
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {-0.193537 -1.16218 1.0925 1.17531}
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {-0.268115 -0.63991 0.895321 0.657279}
+set_field_prop ImpactIonization -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.00885193 -0.201985}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.0412226 -0.0368256}
+#-> 0
+set_field_prop eVelocity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+set_field_prop eImpactIonization -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+set_field_prop eDensity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+set_field_prop hDensity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.162552 -0.0135147}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.0146183 -0.0439998}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.192795 0.084713}
+#-> 0
+set_material_prop {DepletionRegion} -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -on
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+select_plots {Plot_n1621_0020_nmos1_des}
+#-> Plot_n1621_0020_nmos1_des
+set_material_prop {DepletionRegion} -plot Plot_n1621_0020_nmos1_des -geom n1621_0020_nmos1_des -on
+#-> 0
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0020_nmos1_des -factor 0.826446
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0011_nmos1_des.tdr -fod
+create_plot -dataset n1621_0011_nmos1_des
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+#-> Plot_n1621_0011_nmos1_des
+#-> n1621_0011_nmos1_des
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 2.14359
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0011_nmos1_des -position {0.700462 -12.1997}
+#-> 0
+move_plot -plot Plot_n1621_0011_nmos1_des -position {-0.612904 -10.7988}
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0011_nmos1_des -position {1.46933 0.846257}
+#-> 0
+set_material_prop {DepletionRegion} -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -on
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0011_nmos1_des -position {0.595587 -0.148156}
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0011_nmos1_des -position {0.0735945 0.0702493}
+#-> 0
+set_field_prop ImpactIonization -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1621_0020_nmos1_des}
+#-> Plot_n1621_0020_nmos1_des
+set_field_prop ImpactIonization -plot Plot_n1621_0020_nmos1_des -geom n1621_0020_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+select_plots {Plot_n1621_0020_nmos1_des}
+#-> Plot_n1621_0020_nmos1_des
+remove_plots {Plot_n1621_0020_nmos1_des}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_n1621_0020_nmos1_des
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0011_nmos1_des -position {0.347093 0}
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+probe_field -coord {0.00891411 0.489693} -field ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des -region R.Substrate -geom n1621_0010_nmos1_des
+#-> -2.85041350695
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+probe_field -coord {0.0168159 0.536432} -field ElectrostaticPotential -plot Plot_n1621_0011_nmos1_des -region R.Substrate -geom n1621_0011_nmos1_des
+#-> -2.52370111331
+probe_field -coord {0.0168159 0.536432} -field ElectrostaticPotential -plot Plot_n1621_0011_nmos1_des
+#-> -2.52370111331
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+probe_field -coord {0.00891411 0.428427} -field ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des -region R.SubstrateInit -geom n1621_0010_nmos1_des
+#-> -2.850409921
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0009_nmos1_des.tdr -fod
+create_plot -dataset n1621_0009_nmos1_des
+select_plots {Plot_n1621_0009_nmos1_des}
+#-> Plot_n1621_0009_nmos1_des
+#-> Plot_n1621_0009_nmos1_des
+#-> n1621_0009_nmos1_des
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {2.68394 -11.0183}
+#-> 0
+move_plot -plot Plot_n1621_0009_nmos1_des -position {1.55386 -12.3602}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0009_nmos1_des -geom n1621_0009_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.860489 1.10071}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.785156 0}
+#-> 0
+set_material_prop {DepletionRegion} -plot Plot_n1621_0009_nmos1_des -geom n1621_0009_nmos1_des -on
+#-> 0
+probe_field -coord {0.0187585 0.637816} -field ElectrostaticPotential -plot Plot_n1621_0009_nmos1_des -region R.Substrate -geom n1621_0009_nmos1_des
+#-> -2.52680598172
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+probe_field -coord {0.0230802 0.627331} -field ElectrostaticPotential -plot Plot_n1621_0011_nmos1_des -region R.Substrate -geom n1621_0011_nmos1_des
+#-> -2.53907105938
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+probe_field -coord {-0.543582 -1.31099} -field ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.847978 0.952439}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.461666 -0.927528}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.358298 -0.211455}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.00647244 0.292878}
+#-> 0
+set_field_prop hDensity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+probe_field -coord {-0.4471 -1.17503} -field ElectrostaticPotential -plot Plot_n1621_0011_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+set_field_prop hDensity -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1621_0009_nmos1_des}
+#-> Plot_n1621_0009_nmos1_des
+probe_field -coord {-0.185824 -0.533006} -field ElectrostaticPotential -plot Plot_n1621_0009_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+set_field_prop hDensity -plot Plot_n1621_0009_nmos1_des -geom n1621_0009_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.193458 -0.179271}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.0731022 0.057459}
+#-> 0
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.0643781 -0.00601664}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.564474
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0009_nmos1_des -position {0.0802519 0.124627}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.0717094 -0.130679}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {-0.0865901 -0.0319976}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0009_nmos1_des -position {0.218479 0.0702253}
+#-> 0
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0009_nmos1_des -factor 0.826446
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+move_plot -plot Plot_n1621_0011_nmos1_des -position {-0.249783 -0.0587726}
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+set_field_prop Band2BandGeneration -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop Band2BandGeneration -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -hide_bands
+#-> 0
+set_field_prop AugerRecombination -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop LatticeTemperature -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop ImpactIonization -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop SpaceCharge -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop AcceptorConcentration -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop AcceptorConcentration -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -hide_bands
+#-> 0
+set_field_prop eImpactIonization -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+set_field_prop eVelocity -plot Plot_n1621_0011_nmos1_des -geom n1621_0011_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0011_nmos1_des -position {-0.10791 -0.211415}
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0011_nmos1_des -position {0.00554776 0.0661621}
+#-> 0
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+create_cutline -plot Plot_n1621_0011_nmos1_des -type y -at -0.237142
+#-> C1(n1621_0011_nmos1_des)
+create_plot -dataset C1(n1621_0011_nmos1_des) -1d
+select_plots {Plot_C1(n1621_0011_nmos1_des)}
+#-> Plot_C1(n1621_0011_nmos1_des)
+#-> Plot_C1(n1621_0011_nmos1_des)
+create_curve -axisX X -axisY eVelocity -dataset {C1(n1621_0011_nmos1_des)} -plot Plot_C1(n1621_0011_nmos1_des)
+#-> Curve_1
+set_axis_prop -plot Plot_C1(n1621_0011_nmos1_des) -axis x -range {-0.0485784 0.0624685}
+#-> 0
+set_band_diagram {Plot_C1(n1621_0011_nmos1_des)}
+#-> 0
+zoom_plot -plot Plot_C1(n1621_0011_nmos1_des) -window {-0.418538 -6.19484 0.684487 3.78732}
+zoom_plot -plot Plot_C1(n1621_0011_nmos1_des) -window {-0.0252769 -7.2553 0.0209891 3.67205}
+zoom_plot -plot Plot_C1(n1621_0011_nmos1_des) -reset
+zoom_plot -plot Plot_C1(n1621_0011_nmos1_des) -window {-0.248842 -6.75619 0.260246 3.68969}
+zoom_plot -plot Plot_C1(n1621_0011_nmos1_des) -window {-0.0197525 -6.56319 0.0247927 3.61732}
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.112983 -0.236893 0} -pos2 {39.997 -0.236893 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.113232 -0.236396 0} -pos2 {39.9968 -0.236396 0}
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.11745 -0.236492 0} -pos2 {39.9926 -0.236492 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.106426 -0.236684 0} -pos2 {40.0036 -0.236684 0}
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.466507
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.564474
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0011_nmos1_des -factor 1.21
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.0931616 -0.0377118 0} -pos2 {40.0168 -0.0377118 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.105646 -0.235123 0} -pos2 {40.0044 -0.235123 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.111888 -0.0275681 0} -pos2 {39.9981 -0.0275681 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.097063 -0.236684 0} -pos2 {40.0129 -0.236684 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.101745 -0.396641 0} -pos2 {40.0083 -0.396641 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.105646 -0.316272 0} -pos2 {40.0044 -0.316272 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.106426 -0.277258 0} -pos2 {40.0036 -0.277258 0}
+set_cutline_prop C1 -plot Plot_n1621_0011_nmos1_des -pos1 {-0.112669 -0.235123 0} -pos2 {39.9973 -0.235123 0}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+probe_field -coord {-0.18083 0.529549} -field hDensity -plot Plot_n1621_0010_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+set_field_prop eVelocity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.170935 -0.256403}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.00145516 0.046856}
+#-> 0
+set_field_prop Abs(ElectricField-V) -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+set_field_prop eVelocity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+select_plots {Plot_n1621_0011_nmos1_des}
+#-> Plot_n1621_0011_nmos1_des
+remove_plots {Plot_n1621_0011_nmos1_des}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_n1621_0011_nmos1_des
+select_plots {Plot_C1(n1621_0011_nmos1_des)}
+#-> Plot_C1(n1621_0011_nmos1_des)
+remove_plots {Plot_C1(n1621_0011_nmos1_des)}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_C1(n1621_0011_nmos1_des)
+select_plots {Plot_n1621_0009_nmos1_des}
+#-> Plot_n1621_0009_nmos1_des
+probe_field -coord {-0.384497 -0.55316} -field hDensity -plot Plot_n1621_0009_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+remove_plots {Plot_n1621_0009_nmos1_des}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_n1621_0009_nmos1_des
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.0205551 0.0167407}
+#-> 0
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.0247933 -0.00445007}
+#-> 0
+probe_field -coord {0.0108575 -0.234108} -field eVelocity -plot Plot_n1621_0010_nmos1_des -region R.SubstrateInit -geom n1621_0010_nmos1_des
+#-> 16640286.3535
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.029879 0.00614534}
+#-> 0
+set_field_prop eImpactIonization -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.0213983 0.0416703}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.184281 0.0434549}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.0214217 0.0555016}
+#-> 0
+set_field_prop eDensity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.0313193 1.42279}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.564474
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.0252556 -1.235}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.0538697 -0.182891}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.00731564 -0.0784769}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.00321888 0.0337983}
+#-> 0
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.000804721 0.034603}
+#-> 0
+set_field_prop hDensity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+set_field_prop eVelocity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+probe_field -coord {0.0102307 -0.236513} -field eVelocity -plot Plot_n1621_0010_nmos1_des -region R.SubstrateInit -geom n1621_0010_nmos1_des
+#-> 16929895.9234
+probe_field -coord {0.0182779 -0.239732} -field eVelocity -plot Plot_n1621_0010_nmos1_des -region R.SubstrateInit -geom n1621_0010_nmos1_des
+#-> 16065058.9815
+probe_field -coord {0.0866791 -0.250998} -field eVelocity -plot Plot_n1621_0010_nmos1_des -region R.SubstrateInit -geom n1621_0010_nmos1_des
+#-> 9468151.66452
+probe_field -coord {0.221068 -0.123852} -field eVelocity -plot Plot_n1621_0010_nmos1_des -region R.SubstrateInit -geom n1621_0010_nmos1_des
+#-> 8032933.5373
+probe_field -coord {-0.0815075 0.426577} -field eVelocity -plot Plot_n1621_0010_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+probe_field -coord {-0.0815075 0.434624} -field eVelocity -plot Plot_n1621_0010_nmos1_des
+#!-> Error: Field data couldn't be obtained. Check arguments.
+probe_field -coord {0.184855 0.832156} -field eVelocity -plot Plot_n1621_0010_nmos1_des
+#-> 798610.225715
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {-0.203825 0.729152 0.460874 -0.722564}
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {-0.15 0.7 0.5 -0.7}
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0010_nmos1_des.tdr -fod
+create_plot -dataset n1621_0010_nmos1_des_2
+select_plots {Plot_n1621_0010_nmos1_des_2}
+#-> Plot_n1621_0010_nmos1_des_2
+#-> Plot_n1621_0010_nmos1_des_2
+#-> n1621_0010_nmos1_des_2
+zoom_plot -plot Plot_n1621_0010_nmos1_des_2 -window {-0.15 0.7 0.5 -0.7}
+set_field_prop ImpactIonization -plot Plot_n1621_0010_nmos1_des_2 -geom n1621_0010_nmos1_des_2 -show_bands
+#-> 0
+set_field_prop ImpactIonization -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des_2 -show_bands
+#!-> Error: set_field_prop: unable to set properties.
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {-0.15 0.7 0.5 -0.7}
+zoom_plot -plot Plot_n1621_0010_nmos1_des -window {-0.15 0.5 0.5 -0.5}
+zoom_plot -plot Plot_n1621_0010_nmos1_des_2 -window {-0.15 0.5 0.5 -0.5}
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -position {0.6901 0.583036} -size {0.232797 0.3}
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -label_font_family arial -label_font_factor 1.5 -label_font_color #000000 -label_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -title_font_family arial -title_font_factor 1.5 -title_font_color #000000 -title_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -title_font_family arial -title_font_factor 1.5 -title_font_color #ffffff -title_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -label_font_family arial -label_font_factor 1.5 -label_font_color #ffffff -label_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -position {0.617439 0.479464} -size {0.369511 0.3}
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -precision 2
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -nof_labels 8
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -nof_labels 9
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des_2 -nof_labels 8
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -position {0.8 0.5} -size {0.15 0.3}
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -precision 2
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -nof_labels 8
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -title_font_family arial -title_font_factor 1.5 -title_font_color #ffffff -title_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -label_font_family arial -label_font_factor 1.5 -label_font_color #ffffff -label_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -position {0.727339 0.449107} -size {0.245226 0.3}
+#-> 0
+set_plot_prop -plot {Plot_n1621_0010_nmos1_des} -hide_title
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des_2}
+#-> Plot_n1621_0010_nmos1_des_2
+set_plot_prop -plot {Plot_n1621_0010_nmos1_des_2} -hide_title
+#-> 0
+set_field_prop ImpactIonization -plot Plot_n1621_0010_nmos1_des_2 -geom n1621_0010_nmos1_des_2 -label "Impact Ionization"
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+set_field_prop eVelocity -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -label "e- Velocity"
+#-> 0
+set_axis_prop -plot Plot_n1621_0010_nmos1_des -axis y -title "Y (um)"
+#-> 0
+set_axis_prop -plot Plot_n1621_0010_nmos1_des -axis x -title "X (um)"
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des_2}
+#-> Plot_n1621_0010_nmos1_des_2
+set_axis_prop -plot Plot_n1621_0010_nmos1_des_2 -axis y -title "Y (um)"
+#-> 0
+set_axis_prop -plot Plot_n1621_0010_nmos1_des_2 -axis x -title "X (um)"
+#-> 0
+export_view /home/kasm-user/Desktop/Downloads/Reverse.png -plots {Plot_n1621_0010_nmos1_des_2} -format png
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des_2 Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des Plot_n1621_0010_nmos1_des_2
+export_view /home/kasm-user/Downloads/Reverse.png -plots {Plot_n1621_0010_nmos1_des Plot_n1621_0010_nmos1_des_2} -format png
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1694_0010_nmos1_des.tdr -fod
+create_plot -dataset n1694_0010_nmos1_des
+select_plots {Plot_n1694_0010_nmos1_des}
+#-> Plot_n1694_0010_nmos1_des
+#-> Plot_n1694_0010_nmos1_des
+#-> n1694_0010_nmos1_des
+set_field_prop ImpactIonization -plot Plot_n1694_0010_nmos1_des -geom n1694_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.77156
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 2.14359
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1694_0010_nmos1_des -position {0.723618 -14.3035}
+#-> 0
+move_plot -plot Plot_n1694_0010_nmos1_des -position {1.44724 -12.9528}
+#-> 0
+move_plot -plot Plot_n1694_0010_nmos1_des -position {-0.699497 6.10251}
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1694_0010_nmos1_des -position {0.177848 -0.952756}
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1694_0010_nmos1_des -position {0.538075 -0.245618}
+#-> 0
+move_plot -plot Plot_n1694_0010_nmos1_des -position {0.0514084 0.0422692}
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1694_0010_nmos1_des -position {0.0920732 -0.0772479}
+#-> 0
+move_plot -plot Plot_n1694_0010_nmos1_des -position {0.0655436 0.0156056}
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1694_0010_nmos1_des -geom n1694_0010_nmos1_des -show_bands
+#-> 0
+set_field_prop eVelocity -plot Plot_n1694_0010_nmos1_des -geom n1694_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+set_legend_prop -plot Plot_n1621_0010_nmos1_des -position {0.727339 0.506558} -size {0.245226 0.3}
+#-> 0
+select_plots {Plot_n1694_0010_nmos1_des}
+#-> Plot_n1694_0010_nmos1_des
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1694_0010_nmos1_des -position {-0.1263 -0.0266025}
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1694_0010_nmos1_des -position {-0.0463935 -0.0177455}
+#-> 0
+move_plot -plot Plot_n1694_0010_nmos1_des -position {-0.00626313 -0.0161218}
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.4641
+move_plot -plot Plot_n1621_0010_nmos1_des -position {-0.210161 -0.199623}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.0213015 0.00846597}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des -position {0.0184732 0.00152882}
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des -geom n1621_0010_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1694_0010_nmos1_des}
+#-> Plot_n1694_0010_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1694_0010_nmos1_des -geom n1694_0010_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.564474
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.564474
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+select_plots {Plot_n1694_0010_nmos1_des}
+#-> Plot_n1694_0010_nmos1_des
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 0.826446
+set_material_prop {DepletionRegion} -plot Plot_n1694_0010_nmos1_des -geom n1694_0010_nmos1_des -on
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des -factor 1.21
+select_plots {Plot_n1694_0010_nmos1_des}
+#-> Plot_n1694_0010_nmos1_des
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1694_0010_nmos1_des -factor 1.21
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> init_n1621_sys_des
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0000_nmos1_des.tdr -fod
+create_plot -dataset n1621_0000_nmos1_des
+select_plots {Plot_n1621_0000_nmos1_des}
+#-> Plot_n1621_0000_nmos1_des
+#-> Plot_n1621_0000_nmos1_des
+#-> n1621_0000_nmos1_des
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des} -plot Plot_1
+#-> Curve_1
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+set_legend_prop -plot Plot_1 -position {0.188525 0.754039}
+#-> 0
+select_plots {Plot_n1621_0000_nmos1_des}
+#-> Plot_n1621_0000_nmos1_des
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.77156
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.4641
+move_plot -plot Plot_n1621_0000_nmos1_des -position {2.05699 -10.3042}
+#-> 0
+move_plot -plot Plot_n1621_0000_nmos1_des -position {-0.249915 -9.82356}
+#-> 0
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0000_nmos1_des -position {0.667058 -2.268}
+#-> 0
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.77156
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0000_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0000_nmos1_des -position {-0.267389 0.909515}
+#-> 0
+move_plot -plot Plot_n1621_0000_nmos1_des -position {-0.415722 0.117105}
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0000_nmos1_des -geom n1621_0000_nmos1_des -show_bands
+#-> 0
+remove_plots {Plot_n1621_0000_nmos1_des}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_n1621_0000_nmos1_des
+select_plots {Plot_n1694_0010_nmos1_des}
+#-> Plot_n1694_0010_nmos1_des
+remove_plots {Plot_n1694_0010_nmos1_des}
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+#-> Plot_n1694_0010_nmos1_des
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0010_nmos1_des.tdr -fod
+create_plot -dataset n1621_0010_nmos1_des_3
+select_plots {Plot_n1621_0010_nmos1_des_3}
+#-> Plot_n1621_0010_nmos1_des_3
+#-> Plot_n1621_0010_nmos1_des_3
+#-> n1621_0010_nmos1_des_3
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.4641
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {3.19609 -8.86338}
+#-> 0
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {2.28998 -8.59979}
+#-> 0
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {-0.378918 -5.70024}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.4641
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {-1.39738 1.64509}
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {-0.996733 -0.641782}
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des_3 -geom n1621_0010_nmos1_des_3 -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 1.21
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {-0.269609 -0.142801}
+#-> 0
+set_field_prop ImpactIonization -plot Plot_n1621_0010_nmos1_des_3 -geom n1621_0010_nmos1_des_3 -show_bands
+#-> 0
+set_field_prop eDensity -plot Plot_n1621_0010_nmos1_des_3 -geom n1621_0010_nmos1_des_3 -show_bands
+#-> 0
+select_plots {Plot_1}
+#-> Plot_1
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+select_plots {Plot_n1621_0010_nmos1_des_3}
+#-> Plot_n1621_0010_nmos1_des_3
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0010_nmos1_des_3 -geom n1621_0010_nmos1_des_3 -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+zoom_plot -plot Plot_n1621_0010_nmos1_des_3 -factor 0.826446
+move_plot -plot Plot_n1621_0010_nmos1_des_3 -position {0.110236 1.51706}
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0001_nmos1_des.tdr -fod
+create_plot -dataset n1621_0001_nmos1_des
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+#-> Plot_n1621_0001_nmos1_des
+#-> n1621_0001_nmos1_des
+load_file /home/kasm-user/Desktop/Work/TransportModels/n1621_0019_nmos1_des.tdr -fod
+create_plot -dataset n1621_0019_nmos1_des
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+#-> Plot_n1621_0019_nmos1_des
+#-> n1621_0019_nmos1_des
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+select_plots {Plot_n1621_0001_nmos1_des Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des Plot_n1621_0019_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0019_nmos1_des -geom n1621_0019_nmos1_des -show_bands
+#-> 0
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0001_nmos1_des -geom n1621_0001_nmos1_des -show_bands
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0001_nmos1_des -position {3.09375 -9.30451}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.232613 -4.18703}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.465226 -8.07166}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.497866 0.552254}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.132267 -0.461322}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.77156
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.4641
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0019_nmos1_des -position {2.67216 -10.7463}
+#-> 0
+move_plot -plot Plot_n1621_0019_nmos1_des -position {0.346036 -8.74701}
+#-> 0
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.77156
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.77156
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0019_nmos1_des -position {-1.24589 -1.41449}
+#-> 0
+move_plot -plot Plot_n1621_0019_nmos1_des -position {-0.205744 -0.451494}
+#-> 0
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.4641
+move_plot -plot Plot_n1621_0019_nmos1_des -position {0.161301 -0.207959}
+#-> 0
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 1.21
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+set_legend_prop -plot Plot_n1621_0001_nmos1_des -position {0.8 0.5} -size {0.237375 0.3}
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0001_nmos1_des -geom n1621_0001_nmos1_des -max 0.9 -max_fixed
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0001_nmos1_des -geom n1621_0001_nmos1_des -min -0.45 -min_fixed
+#-> 0
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0019_nmos1_des -geom n1621_0019_nmos1_des -max 0 -max_fixed
+#-> 0
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0019_nmos1_des -geom n1621_0019_nmos1_des -max 0.9 -max_fixed
+#-> 0
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0019_nmos1_des -geom n1621_0019_nmos1_des -min -2.2 -min_fixed
+#-> 0
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+set_field_prop ElectrostaticPotential -plot Plot_n1621_0001_nmos1_des -geom n1621_0001_nmos1_des -min -2.2 -min_fixed
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.23512 0.874783}
+#-> 0
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0019_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0019_nmos1_des -position {0.0253117 0.906157}
+#-> 0
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.165967 -1.2897}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.00345764 0.632748}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.115634 -0.264957}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.119237 -0.0409062}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.156517 -0.00376242}
+#-> 0
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.466507
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.466507
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.0202493 2.15149}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.116434 2.47042}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.339176 2.92603}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.268304 3.19939}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {-0.642916 2.94628}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.0253117 3.3462}
+#-> 0
+move_plot -plot Plot_n1621_0001_nmos1_des -position {0.258179 2.28311}
+#-> 0
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -axisX v(out) -axisY2 v(subs) -dataset {init_n1621_sys_des} -plot Plot_1
+#-> Curve_2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {1.60767 0.0864033}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.189047 -1.41119e-07}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.107426 4.27684e-09}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+set_legend_prop -plot Plot_1 -position {0.510929 0.886894}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.529057 7.26763e-09}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+export_curves {Curve_1 Curve_2} -plot Plot_1 -filename /home/kasm-user/Downloads/reverse_hysteresis_RB=1e15.csv -format csv
+#-> /home/kasm-user/Downloads/reverse_hysteresis_RB=1e15.csv
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.683013
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 0.826446
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+zoom_plot -plot Plot_n1621_0001_nmos1_des -factor 1.21
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -axisX v(out) -axisY i(nmos1,subs) -dataset {init_n1621_sys_des} -plot Plot_1
+#-> Curve_3
+move_plot -plot Plot_1 -position {-0.33689 -2.37166e-13}
+#-> 0
+move_plot -plot Plot_1 -position {0 4.17055e-12}
+#-> 0
+move_plot -plot Plot_1 -position {0.154376 5.04521e-12}
+#-> 0
+move_plot -plot Plot_1 -position {-0.192658 7.06635e-09}
+#-> 0
+move_plot -plot Plot_1 -position {-0.0887715 -9.37565e-11}
+#-> 0
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+move_plot -plot Plot_1 -position {0.215407 2.33711e-13}
+#-> 0
+move_plot -plot Plot_1 -position {-0.461273 -8.93191e-13}
+#-> 0
+move_plot -plot Plot_1 -position {0.58635 2.45319e-10}
+#-> 0
+move_plot -plot Plot_1 -position {-0.239297 1.95468e-12}
+#-> 0
+move_plot -plot Plot_1 -position {0.0708137 -5.70214e-13}
+#-> 0
+move_plot -plot Plot_1 -position {0.0261048 4.10295e-10}
+#-> 0
+zoom_plot -plot Plot_1 -window {-2.22009 5.28316e-15 0.0996815 2.04895e-13 -1.94511 -1.64365}
+zoom_plot -plot Plot_1 -window {-1.98321 2.6525e-14 0.0425041 4.67167e-14 -1.81213 -1.76548}
+zoom_plot -plot Plot_1 -window {-1.82766 3.45859e-14 0.00633062 4.18586e-14 -1.79026 -1.77453}
+zoom_plot -plot Plot_1 -reset
+move_plot -plot Plot_1 -position {0.946809 1.44848e-14}
+#-> 0
+move_plot -plot Plot_1 -position {0.0993848 3.79795e-10}
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1589_sys_des.plt
+#-> init_n1589_sys_des
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1589_sys_des} -plot Plot_1
+#-> Curve_4
+set_legend_prop -plot Plot_1 -position {0.471311 0.312388}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.759221 4.96542e-06}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.118677 5.00585e-09}
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1589_sys_des.plt
+#-> init_n1589_sys_des_2
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1589_sys_des_2} -plot Plot_1
+#-> Curve_5
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {-1.5187 6.12449e-05}
+#-> 0
+move_plot -plot Plot_1 -position {-0.436112 -8.75214e-05}
+#-> 0
+move_plot -plot Plot_1 -position {1.06719 -7.93706e-07}
+#-> 0
+move_plot -plot Plot_1 -position {-0.877355 -1.16349e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.674965 0.00230241}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.0174119 0.000327779}
+#-> 0
+move_plot -plot Plot_1 -position {-0.406739 -2.89668e-05}
+#-> 0
+move_plot -plot Plot_1 -position {-0.0850115 -1.89415e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.00091956 0.000260328}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.000329354 -1.15097e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {0.319088 -9.09139e-05}
+#-> 0
+move_plot -plot Plot_1 -position {0.576075 -7.86352e-05}
+#-> 0
+move_plot -plot Plot_1 -position {0.157401 -6.74168e-06}
+#-> 0
+move_plot -plot Plot_1 -position {0.33014 -5.26448e-06}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_2
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_2} -plot Plot_1
+#-> Curve_6
+zoom_plot -plot Plot_1 -window {-3.15301 1.88213e-11 0.36541 0.0359328 -1.27112 0.490016}
+zoom_plot -plot Plot_1 -window {-1.48672 7.75488e-09 0.414965 0.000271359 -0.774913 0.0873536}
+zoom_plot -plot Plot_1 -window {-0.430605 6.25829e-06 -0.0366848 8.99224e-06 -0.223302 -0.193431}
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {-3.21097 1.19426e-12 0.107796 0.000119373 -1.49837 0.0196777}
+zoom_plot -plot Plot_1 -window {-1.32046 1.5999e-11 0.196692 5.79196e-05 -1.28451 -0.0399224}
+move_plot -plot Plot_1 -position {0.657076 -2.33217e-08}
+#-> 0
+move_plot -plot Plot_1 -position {-0.00904339 2.94709e-07}
+#-> 0
+move_plot -plot Plot_1 -position {-0.33388 4.11442e-07}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.203613 -1.00471e-10}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {-0.227256 5.43599e-06}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.0826406 5.68495e-05}
+#-> 0
+move_plot -plot Plot_1 -position {-1.09635 -1.31819e-06}
+#-> 0
+move_plot -plot Plot_1 -position {-0.98053 8.4027e-06}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {2.26031 -6.4157e-07}
+#-> 0
+move_plot -plot Plot_1 -position {-1.30213 4.97602e-06}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.59166 0.236489}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.112779 4.79063e-05}
+#-> 0
+move_plot -plot Plot_1 -position {-0.176453 -1.61821e-06}
+#-> 0
+move_plot -plot Plot_1 -position {-0.147591 8.75639e-05}
+#-> 0
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+move_plot -plot Plot_n1621_0019_nmos1_des -position {-1.06815 2.27299}
+#-> 0
+move_plot -plot Plot_n1621_0019_nmos1_des -position {2.10593 -0.982092}
+#-> 0
+move_plot -plot Plot_n1621_0019_nmos1_des -position {0.075935 -1.72119}
+#-> 0
+move_plot -plot Plot_n1621_0019_nmos1_des -position {-1.2504 -0.749225}
+#-> 0
+move_plot -plot Plot_n1621_0019_nmos1_des -position {0.121496 0.379675}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+select_plots {Plot_1}
+#-> Plot_1
+move_plot -plot Plot_1 -position {-0.177186 -3.11299e-06}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.903942 0.00221517}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.179326 0.00056507}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {2.09688 -3.21605e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.6
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {0.98842 -6.39564e-10}
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_3
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_3} -plot Plot_1
+#-> Curve_7
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-2.28255 0.030812}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.412697 2.85585e-06}
+#-> 0
+move_plot -plot Plot_1 -position {0.286038 -7.52418e-05}
+#-> 0
+move_plot -plot Plot_1 -position {0.336702 -5.82628e-05}
+#-> 0
+move_plot -plot Plot_1 -position {0.392643 -1.43419e-05}
+#-> 0
+move_plot -plot Plot_1 -position {0.408596 -3.78911e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.24765 9.0464e-05}
+#-> 0
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+move_plot -plot Plot_n1621_0019_nmos1_des -position {-0.688477 2.29324}
+#-> 0
+select_plots {Plot_1}
+#-> Plot_1
+move_plot -plot Plot_1 -position {-0.236459 -2.12114e-05}
+#-> 0
+move_plot -plot Plot_1 -position {-0.187412 0.000125028}
+#-> 0
+move_plot -plot Plot_1 -position {-0.214258 -2.09989e-05}
+#-> 0
+move_plot -plot Plot_1 -position {-0.277762 0.00011806}
+#-> 0
+move_plot -plot Plot_1 -position {-0.277762 -1.53079e-05}
+#-> 0
+move_plot -plot Plot_1 -position {0.122672 9.84126e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {-0.0902694 4.01826e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.017515 4.4161e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+zoom_plot -plot Plot_1 -factor 1.2
+move_plot -plot Plot_1 -position {0.00604437 4.19062e-07}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.8
+move_plot -plot Plot_1 -position {1.55054 -2.582e-05}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+select_plots {Plot_n1621_0010_nmos1_des}
+#-> Plot_n1621_0010_nmos1_des
+remove_plots {Plot_n1621_0010_nmos1_des}
+select_plots {Plot_n1621_0010_nmos1_des_2}
+#-> Plot_n1621_0010_nmos1_des_2
+#-> Plot_n1621_0010_nmos1_des
+remove_plots {Plot_n1621_0010_nmos1_des_2}
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_n1621_0010_nmos1_des_2
+remove_plots {Plot_1}
+select_plots {Plot_n1621_0010_nmos1_des_3}
+#-> Plot_n1621_0010_nmos1_des_3
+#-> Plot_1
+remove_plots {Plot_n1621_0010_nmos1_des_3}
+select_plots {Plot_n1621_0001_nmos1_des}
+#-> Plot_n1621_0001_nmos1_des
+#-> Plot_n1621_0010_nmos1_des_3
+remove_plots {Plot_n1621_0001_nmos1_des}
+select_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+#-> Plot_n1621_0001_nmos1_des
+remove_plots {Plot_n1621_0019_nmos1_des}
+#-> Plot_n1621_0019_nmos1_des
+reload_datasets {n1621_0020_nmos1_des n1621_0010_nmos1_des n1621_0011_nmos1_des n1621_0009_nmos1_des C1(n1621_0011_nmos1_des) n1621_0010_nmos1_des_2 n1694_0010_nmos1_des init_n1621_sys_des n1621_0000_nmos1_des n1621_0010_nmos1_des_3 n1621_0001_nmos1_des n1621_0019_nmos1_des init_n1589_sys_des init_n1589_sys_des_2 init_n1621_sys_des_2 init_n1621_sys_des_3}
+#-> 0
+set_best_look
+#!-> Error: Couldn't set best look to plots. Check Ranges.
+create_plot -1d
+select_plots {Plot_2}
+#-> Plot_2
+#-> Plot_2
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_4
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_4} -plot Plot_2
+#-> Curve_1
+set_axis_prop -plot Plot_2 -axis y -type log
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_5
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_5} -plot Plot_2
+#-> Curve_2
+create_curve -axisX i(nmos1,dr) -axisY i(nmos1,subs) -dataset {init_n1589_sys_des_2} -plot Plot_2
+#-> Curve_3
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_2} -plot Plot_2
+#-> Curve_4
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des} -plot Plot_2
+#-> Curve_5
+move_plot -plot Plot_2 -position {0 0}
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_6
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_6} -plot Plot_2
+#-> Curve_6
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_7
+create_curve -axisX v(dr) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_7} -plot Plot_2
+#-> Curve_7
+move_plot -plot Plot_2 -position {0 0}
+#-> 0
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {0.860648 0.000236698}
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {0.396151 1.04989e-06}
+#-> 0
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {-0.0813322 4.67399e-05}
+#-> 0
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {0.0217469 -2.94203e-07}
+#-> 0
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_8
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_8} -plot Plot_2
+#-> Curve_8
+remove_curves -plot Plot_2 {Curve_8}
+#-> Curve_8
+remove_curves -plot Plot_2 {Curve_1}
+#-> Curve_1
+remove_curves -plot Plot_2 {Curve_2}
+#-> Curve_2
+remove_curves -plot Plot_2 {Curve_4}
+#-> Curve_4
+remove_curves -plot Plot_2 {Curve_5}
+#-> Curve_5
+remove_curves -plot Plot_2 {Curve_6}
+#-> Curve_6
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_5} -plot Plot_2
+#-> Curve_8
+create_curve -axisX v(out) -axisY2 v(subs) -dataset {init_n1621_sys_des_5} -plot Plot_2
+#-> Curve_9
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+remove_curves -plot Plot_2 {Curve_7}
+#-> Curve_7
+remove_curves -plot Plot_2 {Curve_3}
+#-> Curve_3
+export_curves {Curve_8 Curve_9} -plot Plot_2 -filename /home/kasm-user/Downloads/reverse_hysteresis_RB=1e13.csv -format csv -overwrite
+#-> /home/kasm-user/Downloads/reverse_hysteresis_RB=1e13.csv
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1589_sys_des.plt
+#-> init_n1589_sys_des_3
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1589_sys_des_3} -plot Plot_2
+#-> Curve_10
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+create_curve -axisX v(out) -axisY2 v(subs) -dataset {init_n1589_sys_des_3} -plot Plot_2
+#-> Curve_11
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {-0.381844 0.0162288}
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.4
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {-0.00905525 6.20689e-05}
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.6
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.6
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.6
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+move_plot -plot Plot_2 -position {0.0797071 -1.90994e-05}
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {-0.490603 -1.81742e-06}
+#-> 0
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+export_curves {Curve_8 Curve_9 Curve_10 Curve_11} -plot Plot_2 -filename /home/kasm-user/Downloads/reverse_hysteresis_RB=1e13.csv -format csv -overwrite
+#-> /home/kasm-user/Downloads/reverse_hysteresis_RB=1e13.csv
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_9
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_10
+create_curve -axisX v(out) -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_10} -plot Plot_2
+#-> Curve_12
+zoom_plot -plot Plot_2 -window {-0.317309 2.24713e-15 0.244832 0.000267374 -3.44355 -0.608606}
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.4
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {0.235358 1.27961e-05}
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {-0.0644869 1.0421e-05}
+#-> 0
+set_axis_prop -plot Plot_2 -axis y -type linear
+#-> 0
+zoom_plot -plot Plot_2 -reset
+move_plot -plot Plot_2 -position {0 0}
+#-> 0
+zoom_plot -plot Plot_2 -window {-0.297339 -3.03573e-05 0.142446 2.58808e-05 -1.77306 -1.59589}
+zoom_plot -plot Plot_2 -window {-0.0853498 -8.16695e-06 0.112997 4.59391e-06 -1.70316 -1.66296}
+zoom_plot -plot Plot_2 -window {-0.0284141 -6.20617e-07 0.10831 9.80897e-07 -1.67938 -1.67434}
+zoom_plot -plot Plot_2 -window {-0.0178033 -1.07683e-07 0.10074 1.07782e-07 -1.67777 -1.67709}
+move_plot -plot Plot_2 -position {-0.0403189 -8.86953e-09}
+#-> 0
+move_plot -plot Plot_2 -position {0.048265 5.19192e-09}
+#-> 0
+move_plot -plot Plot_2 -position {0.0107713 -4.3266e-10}
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.6
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+set_curve_prop {Curve_12} -plot Plot_2 -hide_line
+#-> 0
+set_curve_prop {Curve_12} -plot Plot_2 -show_line
+#-> 0
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+move_plot -plot Plot_2 -position {0.0527671 -3.44884e-06}
+#-> 0
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 1.2
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -factor 0.8
+zoom_plot -plot Plot_2 -window {-10.2637 -0.000483884 17.0571 4.83107e-05 -3.20184 -1.52523}
+zoom_plot -plot Plot_2 -window {-0.780135 -0.000448083 1.11659 2.80061e-05 -3.08906 -1.5892}
+zoom_plot -plot Plot_2 -window {-0.05077 -0.000439479 0.221925 2.08361e-05 -3.06195 -1.61179}
+zoom_plot -plot Plot_2 -window {0.0954459 -0.000421917 0.108067 1.52901e-05 -3.00662 -1.62926}
+create_curve -axisX time -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_10} -plot Plot_2
+#-> Curve_13
+zoom_plot -plot Plot_2 -reset
+set_axis_prop -plot Plot_2 -axis y -type log
+#-> 0
+zoom_plot -plot Plot_2 -window {68.8891 7.29378e-13 80.4096 6.12375e-12 -1.52502 -1.34785}
+create_curve -axisX time -axisY2 v(dr) -dataset {init_n1621_sys_des_10} -plot Plot_2
+#-> Curve_14
+zoom_plot -plot Plot_2 -reset
+zoom_plot -plot Plot_2 -window {69.0684 6.13305e-14 80.0958 0.000231393 -2.06719 0.192252}
+zoom_plot -plot Plot_2 -window {69.612 5.02475e-13 79.9666 6.2696e-12 -1.85168 -1.59307}
+set_curve_prop {Curve_13} -plot Plot_2 -hide_line
+#-> 0
+set_curve_prop {Curve_13} -plot Plot_2 -show_line
+#-> 0
+zoom_plot -plot Plot_2 -reset
+create_curve -axisX time -axisY2 v(subs) -dataset {init_n1621_sys_des_10} -plot Plot_2
+#-> Curve_15
+zoom_plot -plot Plot_2 -window {46.1171 1.84859e-14 80.4096 0.000315325 -2.19007 0.223963}
+zoom_plot -plot Plot_2 -window {69.7988 6.12697e-13 80.192 0.000201174 -1.83136 0.177912}
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1621_sys_des.plt
+#-> init_n1621_sys_des_11
+create_curve -axisX time -axisY i(nmos1,dr) -dataset {init_n1621_sys_des_11} -plot Plot_2
+#-> Curve_16
+zoom_plot -plot Plot_2 -reset
+set_legend_prop -plot Plot_2 -position {0.607337 0.419643}
+#-> 0
+zoom_plot -plot Plot_2 -window {68.4778 9.56226e-13 799.196 3.83782e-08 -1.78575 -0.699633}
+remove_curves -plot Plot_2 {Curve_8 Curve_9 Curve_10 Curve_11 Curve_12 Curve_13 Curve_14 Curve_15}
+#-> Curve_8 Curve_9 Curve_10 Curve_11 Curve_12 Curve_13 Curve_14 Curve_15
+export_curves {Curve_16} -plot Plot_2 -filename /home/kasm-user/Downloads/Post-reset_retention_transient.csv -format csv
+#-> /home/kasm-user/Downloads/Post-reset_retention_transient.csv
+zoom_plot -plot Plot_2 -reset
+create_curve -axisX time -axisY2 v(subs) -dataset {init_n1621_sys_des_11} -plot Plot_2
+#-> Curve_17
+create_curve -axisX time -axisY2 v(out) -dataset {init_n1621_sys_des_11} -plot Plot_2
+#-> Curve_18
+export_curves {Curve_16 Curve_17 Curve_18} -plot Plot_2 -filename /home/kasm-user/Downloads/Post-reset_retention_transient.csv -format csv -overwrite
+#-> /home/kasm-user/Downloads/Post-reset_retention_transient.csv
+load_file /home/kasm-user/Desktop/Work/TransportModels/init_n1763_sys_des.plt
+#-> init_n1763_sys_des
+create_curve -axisX v(ga) -axisY i(nmos1,dr) -dataset {init_n1763_sys_des} -plot Plot_2
+#-> Curve_19
+remove_curves -plot Plot_2 {Curve_18}
+#-> Curve_18
+remove_curves -plot Plot_2 {Curve_17}
+#-> Curve_17
+remove_curves -plot Plot_2 {Curve_16}
+#-> Curve_16

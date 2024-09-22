@@ -1,0 +1,117 @@
+* Material = "Silicon" {
+
+Scharfetter * relation and trap level for SRH recombination:
+{ * tau = taumin + ( taumax - taumin ) / ( 1 + ( N/Nref )^gamma)
+  * tau(T) = tau * ( (T/300)^Talpha )          (TempDep)
+  * tau(T) = tau * exp( Tcoeff * ((T/300)-1) ) (ExpTempDep)
+	taumin	= 0.0000e+00 ,	0.0000e+00	# [s]
+  *	taumax	= 1.0000e-05 ,	3.0000e-06	# [s]
+        taumax  = 8e-6 ,  8e-7      # [s]
+	Nref	= 1.0000e+16 ,	1.0000e+16	# [cm^(-3)]
+	gamma	= 1 ,	1	# [1]
+	Talpha	= -1.5000e+00 ,	-1.5000e+00	# [1]
+	Tcoeff	= 2.55 ,	2.55	# [1]
+	Etrap	= 0.0000e+00	# [eV]
+}
+
+
+EnormalDependence:
+{ * mu_Enorm^(-1) = mu_ac^(-1) + mu_sr^(-1)  with:
+  * mu_ac = B / (Enorm + C (T/T0)^(-k) (N/N0)^lambda / Enorm^(1/3) )
+  * mu_sr^-1 = Enorm^(A+alpha*n/(N+N1)^nu) / delta + Enorm^3 / eta
+  * EnormalDependence is added with factor exp(-l/l_crit), where l is
+  * the distance to the nearest point of semiconductor/insulator interface.
+  * Factor is equal to 1 if l_crit > 100.
+  * This are tha values for the LUCENT mobility model 
+  * [See M.N. Darwish et al, IEEE Trans. Electr. Dev 44, p 1529, 1997]
+        B       = 3.61e+07 ,    1.51e7      # [cm/s]
+        C       = 1.70e+04 ,    4.18e+03    # [cm^5/3/(sV^2/3)]
+        N0      = 1        ,    1           # [cm^-3]
+        lambda  = 0.0233   ,    0.0119      # [1]
+        k       = 1.7      ,    0.9         # [1]
+        delta   = 3.58e18  ,    4.10e15     # [V/s]
+        A       = 2.58     ,    2.18        # [1]
+        alpha   = 6.85e-21 ,    7.82e-21    # [1]
+        N1      = 1        ,    1           # [cm^-3]
+        nu      = 0.0767   ,    0.123       # [1]
+        eta     = 5.82e+30 ,    2.0546e+30  # [V^2/cm*s]
+        l_crit  = 200      ,    200         # [cm]
+
+}
+
+EnergyRelaxationTime
+{ *  Energy relaxation times in picoseconds
+	(tau_w)_ele	= 0.2	# [ps]
+	(tau_w)_hol	= 0.2	# [ps]
+}
+
+Band2BandTunneling  
+{ * See Dessis manual `Band-To-Band Tunneling' 
+	A	= 8.9770e+20	# [cm / (s V^2)]
+	B	= 2.1466e+07	# [eV^(-3/2) V/cm]
+	hbarOmega	= 0.0186	# [eV]
+
+  * Traditional models for the following keywords in input file:
+  * Band2Band(E1)  : A1*E*exp(-B1/E)
+  * Band2Band(E1_5): A1_5*E^1.5*exp(-B1_5/E)
+  * Band2Band(E2)  : A2*E^2*exp(-B2/E)
+	A1	= 1.1000e+27	# [1/cm/sec/V]
+	B1	= 2.1300e+07	# [V/cm]
+	A1_5	= 1.9000e+24	# [1/cm/sec/V^1.5]
+	B1_5	= 2.1900e+07	# [V/cm]
+  * 	A2	= 3.5000e+21	# [1/cm/sec/V^2]
+  *	B2	= 2.2500e+07	# [V/cm]
+  	A2	= 1.0000e+21	# [1/cm/sec/V^2]
+  	B2	= 3.0000e+07	# [V/cm]
+  * min length to interfaces (for traditional & Hurkx models):
+	dDist	= 0.0000e+00	# [cm]
+  * min potential difference on length dPot/E (for traditional & Hurkx models):
+	dPot	= 1.1	# [V]
+}
+
+AvalancheFactors
+{ *  Coefficients for avalanche generation with hydro
+  *  Factors n_l_f, p_l_f for energy relaxation length in the expressions
+  *  for effective electric field for avalanche generation
+  *  eEeff = eEeff / n_l_f  ( or b = b*n_l_f ) 
+  *  hEeff = hEeff / p_l_f  ( or b = b*p_l_f ) 
+  *  Additional coefficients n_gamma, p_gamma, n_delta, p_delta 
+  *	n_l_f	= 1	# [1]
+  *	p_l_f	= 1	# [1]
+	n_l_f	= @AvalFac@	# [1]
+	p_l_f	= @AvalFac@	# [1]
+	n_gamma	= 1	# [1]
+	p_gamma	= 1	# [1]
+	n_delta	= 1.5	# [1]
+	p_delta	= 1.5	# [1]
+}
+
+vanOverstraetendeMan * Impact Ionization:
+{ * G_impact = alpha_n n v_drift_n  +  alpha_p p v_drift_p
+  * with alpha = gamma a  exp(-b gamma/E) for E<E0 (low) and E>E0 (high)
+  *  with gamma = tanh(hbarOmega/(2kT0)) / tanh(hbarOmega/(2kT))
+	a(low)	= 7.0300e+05 ,	1.5820e+06	# [1/cm]
+	a(high)	= 7.0300e+05 ,	6.7100e+05	# [1/cm]
+	b(low)	= 1.2310e+06 ,	2.0360e+06	# [V/cm]
+	b(high)	= 1.2310e+06 ,	1.6930e+06	# [V/cm]
+	E0	= 4.0000e+05 ,	4.0000e+05	# [V/cm]
+	hbarOmega	= 0.063 ,	0.063	# [eV]
+}
+
+*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

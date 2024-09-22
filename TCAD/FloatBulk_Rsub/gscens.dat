@@ -1,0 +1,3 @@
+# --- scenarios properties
+scenario default static expression ""
+scenario DD_DG static expression ""
